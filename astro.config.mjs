@@ -51,7 +51,7 @@ export default defineConfig({
 						{ label: 'Architecture', link: '/en/guides/architecture/' },
 						{ label: 'Local Setup', link: '/en/guides/local-setup/' },
 						{ label: 'Self-hosting', link: '/en/guides/self-hosting/' },
-						{ label: 'Using credebl.id cloud', link: '/en/guides/using-credebl-id/' },
+						{ label: 'Using credebl.id', link: '/en/guides/using-credebl-id/' },
 					],
 				},
 				{
