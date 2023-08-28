@@ -3,8 +3,7 @@ title: What is CREDEBL?
 description: A guide in my new CREDEBL docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+CREDEBL is an industry-leading Verifiable Credential & Decentralised Identity management platform which builds secure and user-centric SSI solutions. This multi-tenant platform offers straightforward interactions, enabling rapid configuration of your solution.
 
 ## Further reading
 

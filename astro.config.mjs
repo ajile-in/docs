@@ -49,7 +49,14 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Getting Started', link: '/en/guides/getting-started/' },
 						{ label: 'Architecture', link: '/en/guides/architecture/' },
-						{ label: 'Local Setup', link: '/en/guides/local-setup/' },
+						{
+							label: 'Local Setup',
+							link: '/en/guides/local-setup/',
+							items: [
+								// Add the Prerequisite Software Setup link
+								{ label: 'Prerequisite Software Setup', link: '/en/guides/local-setup#prerequisite-software-setup' }
+							]
+						},
 						{ label: 'Self-hosting', link: '/en/guides/self-hosting/' },
 						{ label: 'Using credebl.id', link: '/en/guides/using-credebl-id/' },
 					],
