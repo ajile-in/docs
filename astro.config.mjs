@@ -49,14 +49,9 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Getting Started', link: '/en/guides/getting-started/' },
 						{ label: 'Architecture', link: '/en/guides/architecture/' },
-						{
-							label: 'Local Setup',
-							link: '/en/guides/local-setup/',
-							items: [
-								// Add the Prerequisite Software Setup link
-								{ label: 'Prerequisite Software Setup', link: '/en/guides/local-setup#prerequisite-software-setup' }
-							]
-						},
+					{ label: 'NATS', link: '/en/guides/nats/' },
+						{ label: 'Local Setup using NPM',link: '/en/guides/local-setup-using-npm/' },
+					{ label: 'Local Setup using Docker', link: '/en/guides/local-setup-using-docker/' },
 						{ label: 'Self-hosting', link: '/en/guides/self-hosting/' },
 						{ label: 'Using credebl.id', link: '/en/guides/using-credebl-id/' },
 					],

@@ -212,9 +212,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"en/guides/local-setup.md": {
-	id: "en/guides/local-setup.md";
-  slug: "en/guides/local-setup";
+"en/guides/local-setup-using-docker.md": {
+	id: "en/guides/local-setup-using-docker.md";
+  slug: "en/guides/local-setup-using-docker";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/local-setup-using-npm.md": {
+	id: "en/guides/local-setup-using-npm.md";
+  slug: "en/guides/local-setup-using-npm";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/nats.md": {
+	id: "en/guides/nats.md";
+  slug: "en/guides/nats";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
