@@ -16,7 +16,7 @@ Create a .env file and set the required environment variables as per the .env.ex
 
 Start the services:
  ```bash
-   docker compose up -d
+  docker compose up -d
 ```
 Access the Dockerize Backend by navigating to 
  ```bash

@@ -1,5 +1,5 @@
 ---
-title: Getting Started with CREDEBL Platform
+title: Getting Started 
 description: A reference page in my new CREDEBL docs site.
 ---
 
@@ -27,19 +27,14 @@ Before you begin with the project, make sure the following software's are instal
 
 **Docker Compose:**  Install the **latest version** of [Docker-Compose](https://docs.docker.com/compose/install).
 
-**Nats:** Download and install [nats](https://docs.nats.io/).
+**NATS:** Download and install [NATS](/en/guides/nats/).
 
-**Authentication and Database:** 
+**Authentication and Database** 
 
 The CREDEBL Platform, being open source , mandates user authentication and utilizes a database for storing agent wallets and platform data.Supabase is used as a database service.
 
 To set up authentication and the database server, you have the option to either utilize [supabase](https://supabase.com/docs/guides/self-hosting/docker) or take advantage of the [Supabase SaaS service](https://supabase.com/).
 
-**SendGrid:** 
+**SendGrid** 
 
 Create a [SendGrid account](https://sendgrid.com/), generate an API key, and grant necessary permissions for sending emails.
-
-
-## Further reading
-
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
