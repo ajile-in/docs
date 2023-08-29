@@ -63,12 +63,9 @@ declare module 'astro:content' {
 
 	type BaseSchemaWithoutEffects =
 		| import('astro/zod').AnyZodObject
-		| import('astro/zod').ZodUnion<import('astro/zod').AnyZodObject[]>
+		| import('astro/zod').ZodUnion<[BaseSchemaWithoutEffects, ...BaseSchemaWithoutEffects[]]>
 		| import('astro/zod').ZodDiscriminatedUnion<string, import('astro/zod').AnyZodObject[]>
-		| import('astro/zod').ZodIntersection<
-				import('astro/zod').AnyZodObject,
-				import('astro/zod').AnyZodObject
-		  >;
+		| import('astro/zod').ZodIntersection<BaseSchemaWithoutEffects, BaseSchemaWithoutEffects>;
 
 	type BaseSchema =
 		| BaseSchemaWithoutEffects
@@ -215,9 +212,58 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"en/guides/local-setup-using-docker.md": {
+	id: "en/guides/local-setup-using-docker.md";
+  slug: "en/guides/local-setup-using-docker";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/local-setup-using-npm.md": {
+	id: "en/guides/local-setup-using-npm.md";
+  slug: "en/guides/local-setup-using-npm";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/nats.md": {
+	id: "en/guides/nats.md";
+  slug: "en/guides/nats";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/self-hosting.md": {
+	id: "en/guides/self-hosting.md";
+  slug: "en/guides/self-hosting";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/guides/using-credebl-id.md": {
+	id: "en/guides/using-credebl-id.md";
+  slug: "en/guides/using-credebl-id";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "en/intro/intro-to-ssi.md": {
 	id: "en/intro/intro-to-ssi.md";
   slug: "en/intro/intro-to-ssi";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/intro/key-concepts.md": {
+	id: "en/intro/key-concepts.md";
+  slug: "en/intro/key-concepts";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/intro/platform-features.md": {
+	id: "en/intro/platform-features.md";
+  slug: "en/intro/platform-features";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -239,6 +285,20 @@ declare module 'astro:content' {
 "en/reference/example.md": {
 	id: "en/reference/example.md";
   slug: "en/reference/example";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/support/community.md": {
+	id: "en/support/community.md";
+  slug: "en/support/community";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"en/support/troubleshooting.md": {
+	id: "en/support/troubleshooting.md";
+  slug: "en/support/troubleshooting";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
