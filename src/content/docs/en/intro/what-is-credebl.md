@@ -5,7 +5,7 @@ description: A guide in my new CREDEBL docs site.
 
 CREDEBL is an industry-leading Verifiable Credential & Decentralised Identity management platform which builds secure and user-centric SSI solutions. This multi-tenant platform offers straightforward interactions, enabling rapid configuration of your solution.
 
-## Key Highlights
+## Key Features
 
 **Open Standards, Open Source**
 
@@ -14,7 +14,6 @@ CREDEBL is intricately woven upon robust open standards, notably including W3C s
 **Built for Scalability**
 
 CREDEBL spans the gamut from initial proof-of-concept endeavors to the expansive demands of enterprise settings, ensuring a seamless transition as needs evolve.
-
 
 **Tested for Market Scenarios**
 
@@ -25,4 +24,3 @@ CREDEBL consistently hones its capabilities across an array of industry vertical
 A steadfast commitment to data privacy underscores CREDEBL's design philosophy, steadfastly embracing core tenets such as Privacy by Design and the sovereign control of data.
 
 ![Example Image](./credebl-graph.png)
-
