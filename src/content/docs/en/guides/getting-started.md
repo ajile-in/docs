@@ -3,16 +3,17 @@ title: Getting Started
 description: A reference page in my new CREDEBL docs site.
 ---
 
-### Setting Up CREDEBL
+## Setting Up CREDEBL
 
-Welcome to the manual document that will walk you through the process of configuring CREDEBL on your local machine
+Welcome to the manual that will walk you through the process of setting up CREDEBL Platform on your local machine
 
-## Initial Setup
+### Initial Setup
 
-There are two available methods for the setup process: Using [NPM](/en/guides/local-setup-using-npm/) or [Docker](/en/guides/local-setup-using-docker/).
+There are two ways you can setup the platform: 
+- Using [NPM](/en/guides/local-setup-using-npm/) directly by cloning the repository. OR
+- Using [Docker](/en/guides/local-setup-using-docker/)
 
-In this document, we will cover both the setup.
-## Prerequisites
+### Pre-requisites
 
 At the base of the CREDEBL Platform consist of Prerequisite Softwares. 
 

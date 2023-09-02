@@ -1,9 +1,9 @@
 ---
-title: Local Setup
-description: A reference page in my new CREDEBL docs site.
+title: NATS Messaging
+description: NATS Messaging
 ---
 
-## Create nats config file
+## Create NATS config `nats-server.conf`
 
 ```yaml
 port: 4222
@@ -11,8 +11,11 @@ max_payload: 4194304  # 4 MB in bytes
 websocket:
   port: 443
   no_tls: true 
+
 ```
-## Create docker compose 
+
+## Create `docker-compose`
+
 ``` yaml
 version: '3'
 services:
@@ -26,8 +29,11 @@ services:
       - '8222:8222'
     volumes:
       - ./nats-server.conf:/nats-server.conf:ro
+
 ```
-## Strat NATS
+
+## Start NATS Server
+
 ```yaml
-Docker compose up
+docker compose up
 ```
