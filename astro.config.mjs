@@ -30,7 +30,7 @@ integrations: [
 				github: 'https://github.com/credebl',
 				twitter: 'https://twitter.com/credebl',
 				discord: 'https://discord.gg/w4hnQT7NJG',
-				youtube: 'https://youtube.com/@astrodotbuild',
+				youtube: 'https://www.youtube.com/@blocksterlabs5489',
 			},
 			sidebar: [
 				{
@@ -53,7 +53,7 @@ integrations: [
 						{ label: 'Local Setup using NPM',link: '/en/guides/local-setup-using-npm/' },
 					{ label: 'Local Setup using Docker', link: '/en/guides/local-setup-using-docker/' },
 						//{ label: 'Self-hosting', link: '/en/guides/self-hosting/' },
-						{ label: 'Using credebl.id', link: '/en/guides/using-credebl-id/' },
+						{ label: 'Using CREDEBL Cloud', link: '/en/guides/using-credebl-cloud/' },
 					],
 				},
 				{
@@ -69,7 +69,7 @@ integrations: [
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Community', link: '/en/support/community/' },
-						{ label: 'Troubleshooting', link: '/en/support/troubleshooting/' },
+						// { label: 'Troubleshooting', link: '/en/support/troubleshooting/' },
 					],
 				},
 			],
