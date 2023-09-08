@@ -1,5 +1,5 @@
 ---
-title: CREDEBL Copyright & License
+title: Copyright & License
 description: Details about CREDEBL Copyright & License
 ---
 
