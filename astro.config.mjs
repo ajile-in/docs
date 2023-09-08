@@ -72,6 +72,13 @@ integrations: [
 						// { label: 'Troubleshooting', link: '/en/support/troubleshooting/' },
 					],
 				},
+				{
+					label: 'License',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'License', link: '/en/license/copyright-and-license/' },
+					],
+				},
 			],
 		}),
 	],
