@@ -1,5 +1,5 @@
 ---
-title: Local Setup using NPM
+title: Local setup using Docker
 description: A reference page in my new CREDEBL docs site.
 ---
 
