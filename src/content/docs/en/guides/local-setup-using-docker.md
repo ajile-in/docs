@@ -6,7 +6,7 @@ description: A reference page in my new CREDEBL docs site.
 
 ## Platform API
 
-Clones the platform repository:
+Clones the platform repository from GitHub:
 
  ```bash
    git clone https://github.com/credebl/platform.git 
@@ -25,7 +25,7 @@ For initial master table entry create a credebl-master-table.json file at **lib/
   npx prisma db seed
 ```
 
-Access the dockerized Platform API by navigating to:
+Access the Platform API by navigating to:
 
 ```bash
   http://localhost:5000

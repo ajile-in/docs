@@ -5,7 +5,7 @@ description: A reference page in my new CREDEBL docs site.
 
 ## Platform API
 
-Clone the platform repository:
+Clone the platform repository from GitHub:
 
 ```bash
    git clone https://github.com/credebl/platform.git 
@@ -46,7 +46,7 @@ To start all microservices using below command followed by microservice name, ex
   pnpm run start user
 ```
 
-Access the dockerized Platform API by navigating to:
+Access the Platform API by navigating to:
 
  ```bash
   http://localhost:5000
@@ -86,5 +86,3 @@ Access the Studio UI by navigating to:
 
 
 ---
-
-**Note:** For specific instructions on setting up the Authentication Tool and Communication Tool, refer to the respective sections above.
