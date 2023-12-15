@@ -15,10 +15,8 @@ There are two ways you can setup the platform:
 
 ### Pre-requisites
 
-At the base of the CREDEBL Platform consist of Prerequisite Softwares. 
-
+At the base of the CREDEBL Platform consist of prerequisite softwares.
 Before you begin with the project, make sure the following software's are installed on your machine.
-
 
 **Node.js and npm:**  use node 18 version
 
@@ -29,6 +27,8 @@ Before you begin with the project, make sure the following software's are instal
 **Docker Compose:**  Install the **latest version** of [Docker-Compose](https://docs.docker.com/compose/install).
 
 **NATS:** Download and install [NATS](/en/guides/nats/).
+
+**REDIS:** Download and install [REDIS](https://redis.io/docs/install/install-stack/docker/).
 
 **Authentication and Database** 
 
